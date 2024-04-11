@@ -1,6 +1,6 @@
 
 jogador1 = int(input("Digite um numero de 1 a 10: "))
-while (jogador1 <0 ) or (jogador1>10):
+while (jogador1 <1 ) or (jogador1>10):
     print("Número invalido, digite novamente")
     jogador1 = int(input("Digite um numero de 1 a 10: "))
 
